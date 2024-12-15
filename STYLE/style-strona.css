@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-image: url(https://img.redro.pl/plakaty/big-emotikon-usmiech-700-975080.jpg)
+}
+ul {
+    list-style-type: none;
+ }
+li {
+    color: blueviolet;
+    font-weight: 300;
+}
+blockquote {
+    font-size: 30px;
+}

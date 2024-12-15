@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8"/>
+   <style> 
+	td, th { 
+	border: 1px solid black;
+	padding: 7px; 
+    } 
+	table {
+	border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    }
+    ul {
+    font-size: 25px;
+    line-height: 1.5;
+    }
+    caption {
+    font-size: 24px;
+    padding: 10px;
+    }
+    a {
+    font-size: 20px;
+    }
+    h1 {
+    font-size: large;
+    }
+    img {
+        height: 100px;
+        width: 100px;
+    }
+    form {
+        font-size: 26px;
+    }
+   </style>
+</head>
+<body>
+<h1><a name="menu">MENU STRONY</a></h1>
+<h2>Przejdź do:</h3>
+    <a href="#lista">Lista</a><br>
+    <a href="#tabela">Tabela</a><br>
+    <a href="#formularz">Formularz</a><br>
+    <a href="#odnosnik">Odnośnik</a><br>
+</br></br>    
+<hr>
+</br></br>
+<a name="lista"></a>
+<h3>Polecane marki samochodowe:</h3>
+<ul>
+    <li>Volkswagen<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/1200px-Volkswagen_logo_2019.svg.png"></li>
+    <li>Audi<br><img src="https://uploads.audi-mediacenter.com/system/production/media/116125/images/74022a65b478f7b3a8e0bf8ba70994f66fde5dd7/A231415_web_2880.jpg?1698528985"></li>
+    <li>Skoda<br><img src="https://static.wikia.nocookie.net/logopedia/images/3/3a/%C5%A0koda_Auto_1986.svg/revision/latest/scale-to-width-down/200?cb=20210409145344"></li>
+    <li>Seat<br><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/SEAT_Logo_from_2017.svg"></li>
+</ul>
+</a>
+<hr>
+<br/><br/>
+<a name="tabela"></a>
+<table>
+<caption>Najpopularniejsze modele samochodów</caption>
+	<tr>
+		<th>Marka</td>
+        <th>Model</td>
+        <th>Liczba sprzedanych sztuk na świecie</td>
+	</tr>
+	<tr>
+		<td>Volkswagen</td>
+        <td>Tiguan</td>
+        <td>861 331</td>
+	<tr>
+    <tr>
+        <td>Audi</td>
+        <td>A4</td>
+        <td>344 623</td>
+    <tr>
+    <tr>
+        <td>Skoda</td>
+        <td>Octavia</td>
+        <td>400 210</td>
+    <tr>
+     <tr>
+        <td>Seat</td>
+        <td>Leon</td>
+        <td>159 486</td>
+    <tr>
+</table>
+<br/><br/>
+<hr>
+<br/><br/><br/><br/><br/><br/>
+<a name="formularz"></a>
+<form action="dwa.html">
+<label for="cars1"> Wybierz ulubioną markę samochodową</label>
+    <select name="cars1" id="cars1">
+        <option value="volkswagen">Volkswagen</option>
+        <option value="Audi">Audi</option>
+        <option value="Skoda">Skoda</option>
+        <option value="Seat">Seat</option>
+    </select>
+<br/>
+<input type="submit" value="Wyślij" style="height:25px; width:100px">
+</form>
+<br/><br/><br/><br/><br/><br/>
+<hr>
+<a name="odnosnik"></a>
+<p>Źródła:</p>
+<a href="https://autoblog.spidersweb.pl/volkswagen-najpopularniejsze-modele" target="_blank">Najpopularniejsze modele (otwarcie kolejnej strony w nowym oknie)</a>
+</body>
+</html>

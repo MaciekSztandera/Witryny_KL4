@@ -1,0 +1,25 @@
+body {
+    background-color: #4551b8;
+    text-align: center;
+    color: rgb(46, 46, 46);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    margin: 7% auto;
+    width: 50%;
+    height: 250px;
+    border: 5px solid black;
+    background-color:aliceblue;
+    border-radius: 10px;
+}
+#imie {
+    padding-top: 5px;
+    font-size: 28px;
+    border-bottom: 2px dotted black;
+}
+#kontakt {
+    font-size: 22px;
+}
+#mail #num {
+    font-size: 18px;
+}

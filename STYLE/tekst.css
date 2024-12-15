@@ -1,0 +1,127 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 120%;
+}
+#italic {
+    font-style: italic;
+    font-size: 1.2em;
+}
+#bold {
+    font-weight: bold;
+}
+#lower {
+    text-transform: lowercase;
+}
+#upper {
+    text-transform: uppercase;
+}
+#capitalize {
+    text-transform: capitalize;
+}
+#under {
+    text-decoration: underline;
+}
+#over {
+    text-decoration: overline;
+}
+#through {
+    text-decoration: line-through;
+}
+#wavy-green {
+    text-decoration-color: green;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+}
+#double-purple {
+    text-decoration: underline double purple 2px;
+}
+#dashed-pink {
+    text-decoration: dashed underline overline rgb(252,117,140);
+    line-height: 40px;
+}
+#dotted-navy {
+    text-decoration: navy dotted line-through 5px;
+}
+#link-none {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+#space {
+    line-height: 40px;
+}
+#indent {
+    text-indent: 50px;
+}
+#letter {
+    letter-spacing: 10px;
+}
+#word {
+    word-spacing: 40px;
+}
+#shadows {
+    box-shadow: 10px 10px 10px grey;
+    width: 900px;
+}
+#yellow-shadow {
+    text-shadow: 10px 10px 10px yellow;
+}
+#green-shadow {
+    text-shadow: -8px 8px green;
+}
+#blue-shadow {
+    text-shadow: 10px -10px 3px blue;
+}
+#grey-shadow {
+    text-shadow: 0px 5px 5px grey;
+}
+#purple-shadow {
+    text-shadow: 0px 0px 5px purple;
+}
+
+#font {
+    padding-left: 20px;
+    background-color: lightgreen;
+    border: 10px solid darkgreen;
+    border-radius: 20px;
+}
+#text {
+    padding-left: 20px;
+    border: 15px solid;
+    border-color: red green yellow blue;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(104, 228, 228);
+}
+#others {
+    padding-left: 10px;
+    background-color: lightblue;
+    border: 10px double navy;
+    border-radius: 20px;
+}
+#shadows {
+    text-align: center;
+    background-color: pink;
+    border: 15px solid red;
+    border-radius: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#litera::first-letter {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 350%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#linia::first-line {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

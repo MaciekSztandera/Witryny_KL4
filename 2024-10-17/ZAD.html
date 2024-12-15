@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE/STYL1.CSS">
+    <title>Zadanie</title>
+    <style>
+        p {
+            background-color: rgb(229, 236, 135);
+            font-size: 25;
+            color: hsl(240, 73%, 59%);
+        }
+    </style>
+</head>
+<body>
+<h1>Wprowadzenie do styli - ćwiczenie 1</h1>
+<p style="font-size:30px; color: purple"><span>Kaskadowe Arkusze Stylów</span> to język służący do opisu formy prezentacji stron WWW</p>
+<br>
+<div>
+Style można dołączać na trzy sposoby 
+    <ul>
+    <li>jako osobny plik - tzw. zewnętrzny arkusz CSS</li>
+    <li>osadzając je między tagami &#60;style&#62; i &#60;/style&#62; koniecznie umieszczonymi wewnątrz sekcji &#60;head&#62;</li>
+    <li>umieszczając je wewnątrz atrybutu znacznika - tzw <span>style inline</span></li>
+    </ul>
+</div>
+<p>
+Zewnętrzny arkusz tylów zawiera CSS w oddzielnym pliku z .cssrozszerzeniem. Jest to najczęstsza i najprzydatniejsza metoda wprowadzania CSS do dokumentu.
+Możesz połączyć pojedyńczy plik CSS z wieloma stronami internetowymi, stylizując je wszystkie tym samym arkuszem stylów CSS. <br>
+Odwołanie do zewnętrznego arkusza stylów CSS odbywa się za pomocą tagu &#60;link&#62; z atrybutem <span>href</span> <br>
+&#60;link rel="stylesheet" href="<i>nazwa akusza wraz ze scieżką dostępu</i>"&#62;
+</p>
+<p>
+Wewnętrzny arkusz stylów znajduje się w dokumencie HTML <br>
+Aby utworzyć wewnętrzny arkusz stylów, należy umieszcić CSS wewnątrz &#60;style&#62; elementu zawartego w HTML &#60;head&#62;
+</p>
+<p>
+Style inline to deklaracje CSS, które wpływają na pojedyńczy element HTML, zawarty w atrybucie style. <br>
+&#60;p style="color:red;"&#62;This is my first CSS example&#60;/p&#62;
+</p>
+</body>
+</html>
